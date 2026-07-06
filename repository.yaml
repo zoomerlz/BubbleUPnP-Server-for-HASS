@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/apps/repository#repository-configuration
-name: Example Home Assistant app repository
-url: 'https://github.com/home-assistant/apps-example'
-maintainer: Awesome Maintainer <awesome@example.com>
+name: BubbleUPnP Server for Home Assitant
+url: 'https://github.com/zoomerlz/BubbleUPnP-Server-for-HASS'
+maintainer: zoomerlz

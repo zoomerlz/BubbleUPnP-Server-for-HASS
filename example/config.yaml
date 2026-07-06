@@ -1,17 +1,17 @@
 # https://developers.home-assistant.io/docs/apps/configuration#app-configuration
-name: Example app
-version: "1.3.1"
-slug: example
-description: Example app
-url: "https://github.com/home-assistant/apps-example/tree/main/example"
+name: BubbleUPnP Server
+version: "1.0.0"
+slug: bubbleupnpserver
+description: BubbleUPnP Server for Home Assistant
+url: "https://github.com/zoomerlz/BubbleUPnP-Server-for-HASS"
 arch:
   - aarch64
   - amd64
 init: false
+host_network: true
 map:
+  - data:rw
   - share:rw
 options:
-  message: "Hello world..."
 schema:
-  message: "str?"
-image: "ghcr.io/home-assistant/app-example"
+image: "bubblesoftapps/bubbleupnpserver"
