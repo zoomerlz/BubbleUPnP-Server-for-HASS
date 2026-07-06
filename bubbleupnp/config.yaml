@@ -9,9 +9,4 @@ arch:
   - amd64
 init: false
 host_network: true
-map:
-  - data:rw
-  - share:rw
-options:
-schema:
 image: "bubblesoftapps/bubbleupnpserver"
