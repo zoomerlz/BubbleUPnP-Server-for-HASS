@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/apps/configuration#app-configuration
 name: BubbleUPnP Server
-version: "1.0.0"
+version: latest
 slug: bubbleupnpserver
 description: BubbleUPnP Server for Home Assistant
 url: "https://github.com/zoomerlz/BubbleUPnP-Server-for-HASS"
